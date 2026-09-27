@@ -1,0 +1,6 @@
+{
+  "name": "KID.X — Kids & Baby Store India",
+  "description": "Everything little ones love, all in one place. Shop kids clothing, toys, baby care, books, footwear, and school essentials for ages 0–10 years across India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

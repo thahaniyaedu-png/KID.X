@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9" />
+      <stop offset="100%" stop-color="#FFF3E6" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.1" />
+    </filter>
+  </defs>
+  <!-- Rounded Squircle Background -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bgGrad)" stroke="#FFE4CC" stroke-width="12" />
+  <!-- Playful decorative confetti stars -->
+  <circle cx="96" cy="96" r="14" fill="#FFD166" />
+  <circle cx="416" cy="92" r="12" fill="#06D6A0" />
+  <circle cx="92" cy="412" r="12" fill="#118AB2" />
+  <circle cx="416" cy="416" r="14" fill="#FF6B6B" />
+  <!-- Colorful Blocks / Letters for KID.X -->
+  <g filter="url(#softShadow)">
+    <!-- K (Coral Red) -->
+    <path d="M68 188 C68 176 76 168 88 168 C100 168 108 176 108 188 L108 242 L148 176 C154 166 168 164 178 172 C188 180 188 194 180 204 L142 252 L184 312 C192 322 188 336 178 342 C168 348 154 346 146 334 L108 278 L108 324 C108 336 100 344 88 344 C76 344 68 336 68 324 Z" fill="#FF595E" />
+    <!-- I (Sunny Yellow-Orange) -->
+    <rect x="196" y="168" width="42" height="176" rx="21" fill="#FFCA3A" />
+    <!-- D (Playful Mint Green) -->
+    <path d="M254 188 C254 176 262 168 274 168 L306 168 C352 168 380 202 380 256 C380 310 352 344 306 344 L274 344 C262 344 254 336 254 324 Z M294 206 L294 306 L306 306 C328 306 340 288 340 256 C340 224 328 206 306 206 Z" fill="#8AC926" />
+    <!-- Dot (Vibrant Purple) -->
+    <circle cx="394" cy="324" r="20" fill="#9B5DE5" />
+    <!-- X (Sky Blue) -->
+    <path d="M398 198 C390 186 394 172 406 168 C416 164 428 168 434 178 L452 212 L470 178 C476 168 488 164 498 168 C510 172 514 186 506 198 L474 254 L508 314 C514 326 510 340 498 344 C488 348 476 344 470 332 L452 296 L434 332 C428 344 416 348 406 344 C394 340 390 326 398 314 L430 254 Z" transform="translate(-52, 0)" fill="#1982C4" />
+  </g>
+</svg>
